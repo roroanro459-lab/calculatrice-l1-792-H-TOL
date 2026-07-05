@@ -16,3 +16,10 @@ function calculate(){
     Display.value = "Syntax Error"
    }
 }
+function deleteLast() {
+   Display.value = Display.value.slice(0, -1);
+}
+
+function percent() {
+   Display.value = Display.value / 100;
+}
